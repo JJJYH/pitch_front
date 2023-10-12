@@ -17,12 +17,12 @@ Coded by www.creative-tim.com
 import Fade from "@mui/material/Fade";
 
 // Material Dashboard 2 React base styles
-import colors from "assets/theme-dark/base/colors";
-import typography from "assets/theme-dark/base/typography";
-import borders from "assets/theme-dark/base/borders";
+import colors from "../base/colors";
+import typography from "../base/typography";
+import borders from "../base/borders";
 
 // Material Dashboard 2 React helper functions
-import pxToRem from "assets/theme-dark/functions/pxToRem";
+import pxToRem from "../functions/pxToRem";
 
 const { black, white } = colors;
 const { size, fontWeightRegular } = typography;

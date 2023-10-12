@@ -14,12 +14,12 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React base styles
-import typography from "assets/theme-dark/base/typography";
-import borders from "assets/theme-dark/base/borders";
-import colors from "assets/theme-dark/base/colors";
+import typography from "../../base/typography";
+import borders from "../../base/borders";
+import colors from "../../base/colors";
 
 // Material Dashboard 2 React helper functions
-import pxToRem from "assets/theme-dark/functions/pxToRem";
+import pxToRem from "../../functions/pxToRem";
 
 const { size, fontWeightRegular } = typography;
 const { borderRadius } = borders;

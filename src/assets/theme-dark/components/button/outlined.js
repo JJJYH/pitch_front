@@ -14,13 +14,13 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React Base Styles
-import colors from "assets/theme-dark/base/colors";
-import typography from "assets/theme-dark/base/typography";
+import colors from "../../base/colors";
+import typography from "../../base/typography";
 
 // Material Dashboard 2 React Helper Functions
-import pxToRem from "assets/theme-dark/functions/pxToRem";
+import pxToRem from "../../functions/pxToRem";
 
-const { transparent, light, info, secondary } = colors;
+const { transparent, light, info, secondary, primary } = colors;
 const { size } = typography;
 
 const outlined = {
@@ -32,7 +32,7 @@ const outlined = {
 
     "&:hover": {
       opacity: 0.75,
-      backgroundColor: transparent.main,
+      backgroundColor: primary.main,
     },
 
     "& .material-icon, .material-icons-round, svg": {

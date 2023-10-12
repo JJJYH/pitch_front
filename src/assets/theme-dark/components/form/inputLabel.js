@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React Base Styles
-import colors from "assets/theme-dark/base/colors";
-import typography from "assets/theme-dark/base/typography";
+import colors from "../../base/colors";
+import typography from "../../base/typography";
 
 const { text, info } = colors;
 const { size } = typography;

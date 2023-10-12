@@ -3,6 +3,7 @@ import ManagePage from "./pages/ManagePage";
 import AdminPage from "./pages/AdminPage";
 import SortingMainPage from "./pages/sorting/SortingMainPage";
 import ApplicantDetailPage from "./pages/sorting/ApplicantDetailPage";
+import CVPage from "./pages/CVPage";
 
 
 const routes = [
@@ -26,6 +27,10 @@ const routes = [
         path: '/sorting/detail',
         component: ApplicantDetailPage
     },
+  {
+    path: "/CV",
+    component: CVPage,
+  },
 ];
 
-export default routes
+export default routes;
