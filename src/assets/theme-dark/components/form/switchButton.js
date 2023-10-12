@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React base styles
-import colors from "assets/theme-dark/base/colors";
-import borders from "assets/theme-dark/base/borders";
-import boxShadows from "assets/theme-dark/base/boxShadows";
+import colors from "../../base/colors";
+import borders from "../../base/borders";
+import boxShadows from "../../base/boxShadows";
 
 // Material Dashboard 2 React helper functions
-// import rgba from "assets/theme-dark/functions/rgba";
-import pxToRem from "assets/theme-dark/functions/pxToRem";
-import linearGradient from "assets/theme-dark/functions/linearGradient";
+// import rgba from "../../functions/rgba";
+import pxToRem from "../../functions/pxToRem";
+import linearGradient from "../../functions/linearGradient";
 
 const { white, gradients, grey, transparent } = colors;
 const { borderWidth } = borders;
@@ -63,7 +63,10 @@ const switchButton = {
       },
 
       "&.Mui-focusVisible .MuiSwitch-thumb": {
-        backgroundImage: linearGradient(gradients.info.main, gradients.info.state),
+        backgroundImage: linearGradient(
+          gradients.info.main,
+          gradients.info.state
+        ),
       },
     },
 

@@ -14,13 +14,13 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React base styles
-import boxShadows from "assets/theme/base/boxShadows";
-import typography from "assets/theme/base/typography";
-import colors from "assets/theme/base/colors";
-import borders from "assets/theme/base/borders";
+import boxShadows from "../../base/boxShadows";
+import typography from "../../base/typography";
+import colors from "../../base/colors";
+import borders from "../../base/borders";
 
 // Material Dashboard 2 React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from "../../functions/pxToRem";
 
 const { lg } = boxShadows;
 const { size } = typography;

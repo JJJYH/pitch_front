@@ -2,6 +2,7 @@ import MainPage from "./pages/MainPage";
 import ManagePage from "./pages/ManagePage";
 import AdminPage from "./pages/AdminPage";
 import JobPage from "./pages/JobPage";
+import CVPage from "./pages/CVPage";
 
 const routes = [
     {
@@ -20,6 +21,11 @@ const routes = [
         path: '/job',
         component: JobPage
     },
+    {
+        path: "/CV",
+        component: CVPage,
+    },
+
 ];
 
-export default routes
+export default routes;
