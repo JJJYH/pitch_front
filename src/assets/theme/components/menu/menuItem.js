@@ -14,12 +14,12 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React base styles
-import colors from "assets/theme/base/colors";
-import borders from "assets/theme/base/borders";
-import typography from "assets/theme/base/typography";
+import colors from "../../base/colors";
+import borders from "../../base/borders";
+import typography from "../../base/typography";
 
 // Material Dashboard 2 React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from "../../functions/pxToRem";
 
 const { light, text, dark } = colors;
 const { borderRadius } = borders;
@@ -36,10 +36,11 @@ const menuItem = {
       color: text.main,
       transition: "background-color 300ms ease, color 300ms ease",
 
-      "&:hover, &:focus, &.Mui-selected, &.Mui-selected:hover, &.Mui-selected:focus": {
-        backgroundColor: light.main,
-        color: dark.main,
-      },
+      "&:hover, &:focus, &.Mui-selected, &.Mui-selected:hover, &.Mui-selected:focus":
+        {
+          backgroundColor: light.main,
+          color: dark.main,
+        },
     },
   },
 };

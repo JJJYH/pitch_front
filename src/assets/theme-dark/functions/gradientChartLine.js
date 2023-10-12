@@ -18,7 +18,7 @@ Coded by www.creative-tim.com
  */
 
 // Material Dashboard 2 React helper functions
-import rgba from "assets/theme-dark/functions/rgba";
+import rgba from "../functions/rgba";
 
 function gradientChartLine(chart, color, opacity = 0.2) {
   const ctx = chart.getContext("2d");

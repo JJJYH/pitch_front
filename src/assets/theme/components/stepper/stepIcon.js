@@ -14,11 +14,11 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React base styles
-import colors from "assets/theme/base/colors";
+import colors from "../../base/colors";
 
 // Material Dashboard 2 React helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
-import boxShadow from "assets/theme/functions/boxShadow";
+import pxToRem from "../../functions/pxToRem";
+import boxShadow from "../../functions/boxShadow";
 
 const { white } = colors;
 

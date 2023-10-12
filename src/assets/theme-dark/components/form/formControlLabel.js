@@ -14,11 +14,11 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React base styles
-import colors from "assets/theme-dark/base/colors";
-import typography from "assets/theme-dark/base/typography";
+import colors from "../../base/colors";
+import typography from "../../base/typography";
 
 // Material Dashboard 2 React helper functions
-import pxToRem from "assets/theme-dark/functions/pxToRem";
+import pxToRem from "../../functions/pxToRem";
 
 const { white } = colors;
 const { size, fontWeightBold } = typography;

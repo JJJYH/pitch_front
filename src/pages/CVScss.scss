@@ -1,0 +1,7 @@
+$Dial-Default-Color: grey;
+.dial {
+  background-color: $Dial-Default-Color;
+  :hover {
+    background-color: orange;
+  }
+}
