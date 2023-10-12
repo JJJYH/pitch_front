@@ -1,6 +1,7 @@
 import MainPage from "./pages/MainPage";
 import ManagePage from "./pages/ManagePage";
 import AdminPage from "./pages/AdminPage";
+import JobPage from "./pages/JobPage";
 
 const routes = [
     {
@@ -14,6 +15,10 @@ const routes = [
     {
         path: '/admin',
         component: AdminPage
+    },
+    {
+        path: '/job',
+        component: JobPage
     },
 ];
 
