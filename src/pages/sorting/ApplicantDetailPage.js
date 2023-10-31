@@ -4,8 +4,10 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Avatar from '@mui/material/Avatar';
 import Grid from '@mui/material/Grid';
-import { AppBar, Divider, Tab, Tabs, Typography } from '@mui/material';
+import { AppBar, Button, ButtonGroup, Divider, Fab, Tab, Tabs, Typography } from '@mui/material';
 import TabPanel from "@mui/lab/TabPanel";
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -43,6 +45,30 @@ const ApplicantDetailPage = () => {
 
   return (
     <Box>
+      <Box style={{
+        position: 'relative'
+      }}>
+        <Fab variant="extended"
+          style={{
+            position: 'absolute',
+            zIndex: '444',
+            marginLeft: '75%',
+            marginTop: '45%'
+          }}
+        >
+          <ButtonGroup variant="outlined" aria-label="outlined button group">
+            <Button>
+              <ChevronLeftIcon />
+            </Button>
+            <Button>
+              합격처리
+            </Button>
+            <Button>
+              <ChevronRightIcon />
+            </Button>
+          </ButtonGroup>
+        </Fab>
+      </Box>
       <Box
         sx={{
           display: 'flex',
